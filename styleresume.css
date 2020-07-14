@@ -1,0 +1,202 @@
+@font-face{
+    font-family: abha;
+    src: url(font/AbhayaLibre-Regular.ttf);
+}
+@font-face{
+    font-family: bigfont;
+    src: url(font/SVN-Gilroy-Bold.otf);
+}
+@font-face{
+    font-family: gilroy;
+    src: url(font/SVN-Gilroy-Light.otf);
+}
+*{margin: 0; padding: 0;}
+
+a.menu-item:hover {
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu {
+    margin-left: 134px;
+}
+.topside {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 112px;
+    padding-right: 112px;
+    background-color: white;
+}
+.img-logo {
+    height: 50px;
+    width: 50px;
+    transition: 0.75s;
+}
+a.logoitem:hover .img-logo {
+    transform: scale(1.2);
+    transition: 0.75s;
+}
+.main {
+    margin-top: 100px;
+}
+/* chung */
+
+.ten {
+    font-family: bigfont;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.ico {
+    height: 32px;
+    padding-right: 20px;
+}
+.resumeitem {
+    background-color: #fbf8f8c2;
+    position: relative;
+    padding: 20px 45px;
+    border-left: 3px solid #FF8177;
+    border-bottom: 1px solid rgb(204, 199, 199);
+}
+.arrow {
+    height: 16px;
+    position: absolute;
+    left: 0;
+    top: 29px;
+}
+.tieude {
+    font-family: bigfont;
+    font-size: 20px;
+    color: #2D2D2D; 
+}
+.year {
+    font-family: gilroy;
+    font-size: 15px;
+    color: #D52735;
+    padding-bottom: 5px;
+}
+.mota {
+    font-family: gilroy;
+    font-size: 15px;
+    color: #2D2D2D;
+}
+.noidung {
+    padding: 0 40px !important;
+    margin-bottom: 60px;
+}
+.exp {
+    padding: 0 40px !important;
+}
+img.close {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.tit {
+    font-family: bigfont;
+    font-size: 40px;
+    color: rgb(27, 23, 24);
+}
+.loading-animation {
+    margin-bottom: 60px;
+}
+.loading-bar{
+    width: 120px;
+    height: 5px;
+    margin-left: 18px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+  
+.loading-bar::before{
+    content:"";
+    width: 80px;
+    height: 3px;
+    background: #D52735;
+    position:absolute;
+    left:-34px;
+    animation: bluebar 2s infinite ease;
+}
+@keyframes bluebar{
+    50%{
+      left: 195px;}
+}
+
+.thanht {
+    height: 100%;
+    animation: load 1.5s forwards;
+    transform-origin: left top;
+    opacity: 0;
+}
+.t6 {
+    background: #006bc0;
+    width: 72%;
+    animation-delay: 2.4s;
+}
+.t5 {
+    background: #e64c18;
+    width: 76%;
+    animation-delay: 2s;
+}
+.t4 {
+    background: #941f91;
+    width: 72%;
+    animation-delay: 1.6s;
+}
+.t3 {
+    background: #4b1b7a;
+    width: 74%;
+    animation-delay: 1.2s;
+}
+.t2 {
+    background: #ff7c00;
+    width: 80%;
+    animation-delay: 0.8s;
+}
+.t1 {
+    background: #283593;
+    width: 78%;
+    animation-delay: 0.4s;
+}
+.thanhbg {
+    height: 9px;
+    width: 490px;
+    background: rgb(219, 216, 216);
+}
+.text3 {
+    display: flex;
+}
+.kynang {
+    margin-bottom: 24px;
+}
+.sk {
+    width: 400px;
+    font-size: 16px;
+    margin-top: 40px;
+    line-height: 12px;
+}
+.hide {
+    visibility: hidden;
+}
+p.tenkynang {
+    font-family: gilroy;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+img.adobe {
+    height: 28px;
+    padding-right: 8px;
+}
+@-webkit-keyframes load {
+    0% {transform: scaleX(0); opacity: 1;}
+    100% {transform: scaleX(1); opacity: 1;}
+}
+
+
+
+
+
+
+
+
+
+

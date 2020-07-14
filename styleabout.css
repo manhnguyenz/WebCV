@@ -1,0 +1,137 @@
+@font-face{
+    font-family: abha;
+    src: url(font/AbhayaLibre-Regular.ttf);
+}
+@font-face{
+    font-family: bigfont;
+    src: url(font/SVN-Gilroy-Bold.otf);
+}
+@font-face{
+    font-family: gilroy;
+    src: url(font/SVN-Gilroy-Light.otf);
+}
+*{margin: 0; padding: 0;}
+
+a.menu-item:hover {
+    text-decoration: none;
+    transition: 0.5s;
+}
+.menu {
+    margin-left: 134px;
+}
+.topside {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 112px;
+    padding-right: 112px;
+    background-color: white;
+}
+.img-logo {
+    height: 50px;
+    width: 50px;
+    transition: 0.75s;
+}
+a.logoitem:hover .img-logo {
+    transform: scale(1.2);
+    transition: 0.75s;
+}
+
+/* .noidung {
+    padding-left: 10px !important;
+} */
+img.avt {
+    width: 316px;
+    height: 365px;
+}
+.ten {
+    font-family: bigfont;
+    font-size: 24px;
+    color: #D52735;
+}
+.lylich {
+    font-family: gilroy;
+    font-size: 18px;
+    padding-top: 20px;
+    margin-right: 24px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D52735;
+}
+.avatar {
+    padding-top: 20px;
+    margin-left: 20px;}
+.haicham {
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.fav {
+    padding-top: 30px;
+}
+img.iconfavv {
+    height: 28px;
+    color: #D52735;
+}
+.favchung {
+    font-family: gilroy;
+    font-size: 18px;
+    background-color:rgba(255, 128, 119, 0.561);
+    width: 180px;
+    height: 50px;
+    border-radius: 8px;
+    margin-right: 22px;
+}
+.favrieng {
+    padding-left: 15px;
+    line-height: 50px;
+}
+.iconfav {
+    line-height: 50px;
+    padding-left: 15px;
+}
+.all {
+    margin-top: 20px;
+}
+.main {
+    margin-top: 100px
+}
+img.close {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+.tit {
+    font-family: bigfont;
+    font-size: 40px;
+    color: rgb(27, 23, 24);
+}
+.loading-animation {
+    margin-bottom: 60px;
+}
+.loading-bar{
+    width: 160px;
+    height: 5px;
+    margin-left: 18px;
+    position: relative;
+    overflow: hidden;
+    margin: auto;
+}
+  
+.loading-bar::before{
+    content:"";
+    width: 80px;
+    height: 3px;
+    background: #D52735;
+    position:absolute;
+    left:-34px;
+    animation: bluebar 2s infinite ease;
+}
+@keyframes bluebar{
+    50%{
+      left: 195px;}
+}
+
+
+
+
+
+
+
